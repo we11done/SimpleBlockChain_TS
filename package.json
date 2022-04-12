@@ -2,5 +2,9 @@
   "name": "simple-block-chain",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "script": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
